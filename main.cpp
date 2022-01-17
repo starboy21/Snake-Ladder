@@ -1,6 +1,6 @@
-//turbo c++ compiler ****************************************************************
-#include<iostream>
-//#include<conio.h>
+//use turbo c++ compiler
+#include<iostream.h>
+#include<conio.h>
 #include<stdlib.h>
 #include<stdio.h>
 #include<time.h>
@@ -34,8 +34,7 @@ void main()
         if (player1 < lastposition)
             cout << "\n\aOops!! Snake found !! You are at postion " << player1 << "\n";
         else if (player1 > lastposition + 6)
-            cout << "\nGreat!! you got a ladder !! You are at position " << player1;#
-        include < iostream.h >
+            cout << "\nGreat!! you got a ladder !! You are at position " << player1;
             cout << "\n\n--->" << player2name << " Now your Turn >> Press any key to play ";
         getch();
         lastposition = player2;
